@@ -118,4 +118,8 @@ Clear navigation
 Accessibility 
 Smooth transition and animation 
 
+readme
+https://github.com/T3bogoM/Cake-Rush-Bakery.git
+
+
 
