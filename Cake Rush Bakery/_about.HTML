@@ -1,57 +1,96 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<!--the title sets the text that shows the name -->
-    <title>About Cake Rush Bakery</title>
-<!--link to css file for styling-->
-    <link rel="stylesheet" href="style.css">
+  <!-- Character encoding and mobile responsiveness -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <!-- Title of the page -->
+  <title>About Cake Rush Bakery</title>
+  
+  <!-- Link to external CSS file -->
+  <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    <header>
-    <!--header section-->
-    <!--logo of the bakery -->
-        <img src="_IMAGES/Screenshot 2025-08-26 175106.png" alt="Cake Rush Bakery Logo" class="logo">
-        <!--navigation bar to move between pages -->
-        <!--each <li> is a menu item-->
-        <nav>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="about.html">About Us</a></li>
-                <li><a href="products.html">Products</a></li>
-                <li><a href="gallery.html">Gallery</a></li>
-                <li><a href="contact.html">Contact</a></li>
-            </ul>
-        </nav>
-        <!-- end header section-->
-    </header>
-    <!--main content of the website-->
-    <section>
-        <img src="_IMAGES/Oreo Cake with Oreo Frosting (Cookies and Cream!).jpeg">
-        <!--desription of the bakery-->
-        <h1>Our Story</h1>
-        <p>At Cake Rush Bakery we believe that every moment is sweeter with something sweet. we specialise in cupcakes, wedding cakes and custom orders</p>
-        <p>Cake Rush Bakery first opened its doors in 2017, founded by Nomcebo Biyela. A young entrepreneur born and raised in the Northern Cape, she learned her skills from her grandmother. As her passion for baking grew, she wanted to turn it into a business, which later expanded rapidly in a short period, thanks to social media as a key growth tool. She then looked for additional tools to help grow her business, including a website to take orders systematically and deliver the goods</p>
-        
-        <!--testimonials-->
-        <h2>Testimonials</h2>
-        
-        <blockquote>
-        <!--first testimonial inside blockquotes-->
-            <br>“The vanilla cupcakes were soft and fluffy, the chocolate éclairs divine. This bakery doesn't just bake cakes they create memories filled with sweetness and joy!”<br>
-            <em>- Lerato M., Happy customer - </em>
-        </blockquote>
-        
-        </blockquote>
-        <!--second testimonial inside blockquotes-->
-           <br> “I needed something unique for my anniversary dinner. The apple strudels were perfect rich flavors, beautiful presentation, and amazing service.”<br>
-            <em>- Zanele P., Happy Customer</em>
-        </blockquote>
-        
+  <!-- ===== HEADER SECTION ===== -->
+  <header>
+    <!-- Logo of the bakery -->
+    <img src="images/logo.png" alt="Cake Rush Bakery Logo" class="logo">
+
+    <!-- Navigation bar linking to all pages -->
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html" class="active">About Us</a></li>
+        <li><a href="products.html">Products</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- ===== MAIN CONTENT ===== -->
+  <main>
+    <!-- About section: story of the bakery -->
+    <section class="about-section">
+      <img src="images/oreo-cake.jpeg" alt="Oreo Cake made by Cake Rush Bakery" class="feature-image">
+
+      <h1>Our Story</h1>
+      <p>
+        At <strong>Cake Rush Bakery</strong>, we believe that every moment becomes sweeter with something delightful. 
+        From weddings and birthdays to cozy family gatherings, our treats are crafted to make every celebration memorable.
+      </p>
+
+      <p>
+        Established in <strong>2017</strong> by <em>Nomcebo Biyela</em>, a passionate young entrepreneur from the Northern Cape, 
+        Cake Rush Bakery began as a small kitchen dream inspired by her grandmother’s timeless recipes. 
+        With dedication, creativity, and the power of social media, the bakery grew into a beloved local favorite. 
+        To meet rising demand, Nomcebo expanded her business online — allowing customers to browse, customize, 
+        and order their favorite cakes with just a few clicks.
+      </p>
     </section>
 
-    <footer>
-        <p>© 2025 Cake Rush Bakery | “Creating sweet memories, one cake at a time.”</p>
-    </footer>
-    <!-- end of main content-->
+    <!-- Testimonials section -->
+    <section class="testimonials">
+      <h2>What Our Customers Say</h2>
+
+      <blockquote>
+        “The vanilla cupcakes were soft and fluffy, the chocolate éclairs divine. 
+        This bakery doesn’t just bake cakes — they create memories filled with sweetness and joy!”
+        <br><em>- Lerato M., Happy Customer</em>
+      </blockquote>
+
+      <blockquote>
+        “I needed something unique for my anniversary dinner. The apple strudels were perfect — 
+        rich flavours, beautiful presentation, and amazing service.”
+        <br><em>- Zanele P., Happy Customer</em>
+      </blockquote>
+    </section>
+
+    <!-- Google Maps Location Section -->
+    <section class="map-section">
+      <h2>Find Us</h2>
+      <p>Visit our bakery in Little Falls — we can’t wait to welcome you!</p>
+
+      <!-- Embedded Google Map showing the bakery location -->
+      <div class="map-container">
+        <iframe 
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d114659.69965361047!2d27.724598197265628!3d-26.095144399999995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1e9599847325cf73%3A0xdde4dfb7fc0e90dd!2sBenitas%20-%20Little%20Falls!5e0!3m2!1sen!2sza!4v1761671219295!5m2!1sen!2sza" 
+          width="100%" 
+          height="400" 
+          style="border:0; border-radius: 10px;" 
+          allowfullscreen="" 
+          loading="lazy" 
+          referrerpolicy="no-referrer-when-downgrade">
+        </iframe>
+      </div>
+    </section>
+  </main>
+
+  <!-- ===== FOOTER SECTION ===== -->
+  <footer>
+    <p>© 2025 Cake Rush Bakery | “Creating sweet memories, one cake at a time.”</p>
+  </footer>
 </body>
 </html>
