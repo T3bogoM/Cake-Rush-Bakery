@@ -1,50 +1,57 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-
-    <title>Contact Us - Cake Rush Bakery</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact | Cake Rush Bakery</title>
+  <link rel="stylesheet" href="style.css">
+  <script defer src="script.js"></script>
 </head>
 
 <body>
-    <!--header-->
-    <header>
-        <!--logo of the bakery-->
-        <img src="_IMAGES/Screenshot 2025-08-26 175106.png" alt="Cake Rush Bakery Logo" class="logo">
-        <!--navigation that links all pages to each other-->
-        <nav>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="about.html">About Us</a></li>
-                <li><a href="products.html">Products</a></li>
-                <li><a href="gallery.html">Gallery</a></li>
-                <li><a href="contact.html">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
+  <header>
+    <img src="_images/Screenshot 2025-08-26 175106.png" alt="Cake Rush Bakery Logo" class="logo">
+    <nav>
+      <ul>
+        <li><a href="_index.HTML">Home</a></li>
+        <li><a href="_about.HTML">About Us</a></li>
+        <li><a href="_products.HTML">Products</a></li>
+        <li><a href="_gallery.html">Gallery</a></li>
+        <li><a href="enquire.html">Enquiry</a></li>
+        <li><a href="_contact_page.HTML">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
 
-    <!--conact form using the basic html form-->
-    <section>
-        <h1>Contact Us</h1>
-        <form>
-            <label for="name">Name:</label><br>
-            <input type="text" id="name" name="name"><br><br>
+  <main>
+    <h1>Contact Us</h1>
+    <p>We’d love to hear from you! Please use the form below or find us on social media.</p>
 
+    <form id="contactForm">
+      <label>Name:</label>
+      <input type="text" id="contactName" required>
+      
+      <label>Email:</label>
+      <input type="email" id="contactEmail" required>
+      
+      <label>Message:</label>
+      <textarea id="contactMessage" required></textarea>
 
-            <label for="email">Email:</label><br>
-            <input type="email" id="email" name="email"><br><br>
+      <button type="submit">Send Message</button>
+    </form>
 
-            <label for="message">Message:</label><br>
-            <textarea id="message" name="message"></textarea><br><br>
+    <div class="socials">
+      <h3>Follow Us</h3>
+      <a href="https://facebook.com" target="_blank">Facebook</a> |
+      <a href="https://instagram.com" target="_blank">Instagram</a> |
+      <a href="https://twitter.com" target="_blank">Twitter</a>
+    </div>
 
-            <input type="submit" value="Send">
-        </form>
-    </section>
-    <!--footer-->
-    <footer>
-        <p>© 2025 Cake Rush Bakery | “Creating sweet memories, one cake at a time.”</p>
-    </footer>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!..." width="600" height="450" style="border:0;" allowfullscreen loading="lazy"></iframe>
+  </main>
+
+  <footer>
+    <p>© 2025 Cake Rush Bakery</p>
+  </footer>
 </body>
-
 </html>

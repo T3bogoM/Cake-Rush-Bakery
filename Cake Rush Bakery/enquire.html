@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Enquiry | Cake Rush Bakery</title>
+  <link rel="stylesheet" href="style.css">
+  <script defer src="script.js"></script>
+</head>
+
+<body>
+  <header>
+    <img src="_images/logo.png" alt="Cake Rush Bakery Logo" class="logo">
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="products.html">Products</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+        <li><a href="enquiry.html">Enquiry</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <h1>Product Enquiry</h1>
+    <form id="enquiryForm">
+      <label>Name:</label>
+      <input type="text" id="name" required>
+      
+      <label>Email:</label>
+      <input type="email" id="email" required>
+      
+      <label>Product Interested In:</label>
+      <select id="product">
+        <option value="Cupcakes">Cupcakes</option>
+        <option value="Wedding Cake">Wedding Cake</option>
+        <option value="Pastries">Pastries</option>
+      </select>
+
+      <label>Message:</label>
+      <textarea id="message" required></textarea>
+
+      <button type="submit">Submit Enquiry</button>
+    </form>
+  </main>
+
+  <footer>
+    <p>© 2025 Cake Rush Bakery</p>
+  </footer>
+</body>
+</html>
