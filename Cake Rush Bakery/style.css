@@ -130,3 +130,81 @@ nav a:active {
   transform: scale(1.1);
 }
 
+
+
+
+/* Form Container */
+form {
+  max-width: 600px;
+  margin: 2rem auto;
+  padding: 2rem;
+  background-color: #fff0f5; 
+  border-radius: 15px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  font-family: 'Segoe UI', sans-serif;
+}
+
+/* Fieldsets and Legends */
+fieldset {
+  border: 1px solid #ffc0cb;
+  border-radius: 10px;
+  padding: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+legend {
+  font-weight: bold;
+  color: #d2691e; /* chocolate color for headings */
+  padding: 0 10px;
+}
+
+/* Labels */
+label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-weight: 500;
+  color: #333;
+}
+
+/* Inputs, Selects, and Textareas */
+input[type="text"],
+input[type="email"],
+select,
+textarea {
+  width: 100%;
+  padding: 0.75rem;
+  margin-bottom: 1rem;
+  border: 1px solid #ffc0cb;
+  border-radius: 8px;
+  font-size: 1rem;
+  box-sizing: border-box;
+}
+
+/* Textarea Height */
+textarea {
+  min-height: 120px;
+  resize: vertical;
+}
+
+/* Submit Button */
+button[type="submit"] {
+  background-color: #a02161; 
+  color: #fff;
+  padding: 0.75rem 1.5rem;
+  font-size: 1rem;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button[type="submit"]:hover {
+  background-color: #e145c1;
+}
+
+/* Responsive */
+@media (max-width: 640px) {
+  form {
+    padding: 1rem;
+  }
+}
