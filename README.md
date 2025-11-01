@@ -129,3 +129,15 @@ UX Principles:
 * Accessible design (labels, contrast, alt text)
 * Smooth transitions & hover effects
 * Mobile responsiveness
+
+Reference list: 
+1. Adobe Color. (2024) Color Wheel and Palette Generator. Available at:https://color.adobe.com (Accessed: 10 October 2025).
+2. Canva. (2024) How to Choose the Perfect Color Palette for Your Brand. Available at: https://www.canva.com/colors/(Accessed: 10 October 2025).
+3. FreeCodeCamp. (2024) Responsive Web Design Principles. Available at: https://www.freecodecamp.org/learn (Accessed: 8 October 2025).
+4. Google Developers. (2024) SEO Starter Guide. Available at: https://developers.google.com/search/docs/fundamentals/seo-starter-guide (Accessed: 9 October 2025).
+5. Google Maps Platform. (2024) Embed API Overview. Available at: https://developers.google.com/maps/documentation/embed (Accessed: 12 October 2025).
+6. Mozilla Developer Network (MDN). (2024) HTML Forms and Input Types. Available at: https://developer.mozilla.org/en-US/docs/Learn/Forms(Accessed: 5 October 2025).
+7. Nielsen Norman Group. (2023) 10 Usability Heuristics for User Interface Design. Available at: https://www.nngroup.com/articles/ten-usability-heuristics/(Accessed: 8 October 2025).
+8. Unsplash. (2025) Free Bakery and Cake Images. Available at: https://unsplash.com(Accessed: 10 October 2025).
+9. W3Schools. (2025) JavaScript Form Validation. Available at: https://www.w3schools.com/js/js_validation.asp (Accessed: 12 October 2025).
+10. W3Schools. (2024) CSS Layout Techniques (Flexbox & Grid). Available at: https://www.w3schools.com/css/css3_flexbox.asp (Accessed: 6 October 2025).
