@@ -1,125 +1,131 @@
-# 1. PROJECT TITLE
-Cake rush Bakery
+1. Cake Rush Bakery Website
+Repository:[Cake-Rush-Bakery](https://github.com/T3bogoM/Cake-Rush-Bakery.git)
 
+Student Information
+* Student Name: Tebogo Molawa
+* Student Number: ST10470820
 
-# 2. STUDENT INFROMATION
-student name: Tebogo Molawa
-student number: ST10470820
+Project Goals and Objectives
+Online Orders
+- Develop a fully functional website that allows customers to browse and order cakes online, creating a seamless e-store experience.
 
-Goals and objectives:  
-Online orders:
-•	Create a website with an e-store functionality for online ordering of cakes.
-Brand Visibility 
-•	Develop a visually appealing and user-friendly website to showcase the bakery brand and background 
-Customer Engagement:
-•	Insert Google Maps, Google Forms, and social media links for better interaction with customers 
+Brand Visibility
+- Design a visually appealing, mobile-friendly website that effectively showcases Cake Rush Bakery’s brand identity and story.
+
+Customer Engagement
+- Integrate Google Maps, Google Forms, and social media platforms to improve customer communication and accessibility.
+
 Marketing & Growth
-•	Add promotions page to attract and retain customers
+- Add a promotions section to attract new customers, highlight seasonal specials, and retain loyal clients through special offers.
 
-justification of design choices: 
-1. the websites design has been chosen to show the brands identity and make the website more visually apealing and user friendly. 
-2. the colour palete was chosen for a specific reason like
-- pink: evokes warmth, friendliness and sweetness making it ideal for showcasing desserts 
-- white: gives a sense of hygiene and freshness which is food related for a bakery 
-3. font choices are used to balance personality with readability 
-Detailed layout and navigation: 
-1. the websites layout is structured to maximise usability while maintaining a polished appearance. the header includes the logo for brand recognition, a navigation bar for easy access to cetain pages and a slogan to reinforce the bakerys identity. 
+Justification of Design Choices
 
-future improvements section:
-To ensure the website can grow as the business grows, several features are suggested for future implementation.These include a fully functional shopping cart and secure payment gateway to support online transactions.
+1. Design & Layout:
+   The structure is intuitive and user-friendly, with a logo for recognition, a navigation bar for accessibility, and a consistent header and footer across all pages.
 
+2. Colour Palette:
 
-Website features and Functionalities 
+   * Pink: Evokes warmth, friendliness, and sweetness — ideal for dessert branding.
+   * White: Suggests hygiene, freshness, and simplicity.
+
+3. Typography:
+   Fonts were selected to balance personality with readability. “Poppins” was chosen for headers (modern and clean), and “Open Sans” for body text (clear and elegant).
+
+Detailed Layout and Navigation
+
+* Header: Contains the bakery logo, slogan, and navigation bar.
+* Main Section: Displays page-specific content (home, products, gallery, about, contact).
+* Footer: Includes social media links, contact info, and copyright.
+
+Pages:
+
+Home: Hero section, featured products, and quick links 
+About Us: Bakery story, mission, and testimonials          
+Products: Full list of cakes, prices, and descriptions     
+Gallery: Clickable images with lightbox view              
+Enquiry: Online enquiry form with JavaScript validation  
+Contact: Map, contact form, and social media links        
+
+Website Features and Functionalities
+
 Homepage
-•	Hero slider 
-•	Slogan 
-•	Featured products 
-•	Quick order button 
-•	Links to menu 
+* Hero banner & bakery slogan
+* Featured products section
+* Quick order button
+* Links to main pages
 
-Menu page 
-•	Cakes, cupcake menus, and pastries  
-•	Prices 
-•	Ingredients 
-•	Add to cart functionality 
-•	Product images and descriptions 
-Gallery page 
-•	Photo gallery of custom-made cakes 
-About us page 
-•	Bakery history 
-•	Mission statement and vision 
-•	Customer testimonials 
-Contact us page 
-•	Contact details
-•	Google Form
-•	Google Maps integration
-•	Social media links
+Products Page
+* Detailed product descriptions
+* Pricing and availability
+* JavaScript-based search and filtering
+* Add-to-cart (future enhancement)
+
+Gallery Page
+* Interactive, clickable image gallery
+* JavaScript lightbox effect to enlarge images
+
+About Us Page
+* Bakery history and founder background
+* Mission and vision statement
+* Customer testimonials
+* Google Map and social media integration
+
+Contact Page
+* Contact form with validation
+* Google Map integration
+* Social media icons for engagement
+
+Enquiry Page
+* Custom order/enquiry form
+* JavaScript form validation for accuracy
+* AJAX-ready submission (future upgrade)
+
+Functionality Implemented
+* Responsive design with CSS
+* JavaScript interactivity (forms, lightbox, search filter, back-to-top button)
+* Embedded Google Maps
+* Valid HTML5 structure (`<header>`, `<main>`, `<footer>`)
+* SEO elements (`meta`, alt text, descriptive titles)
+* Accessibility features (contrast, labels, navigation consistency)
+
+
+Future Improvements
+
+* Add shopping cart and secure payment gateway
+* Implement user accounts for order tracking
+* Include blog section for recipes and baking tips
+* Integrate email newsletter system for promotions
 
 Cake Rush Bakery Website Change Log
 
-2025-09-01: Initial project setup. The team drafted the project goals, objectives, and a basic feature list, marking the completion of the planning phase.
 
- 2025-09-05: Created the initial sitemap and wireframes for the homepage, menu, and checkout pages, establishing the layout and navigation flow.
+2025-09-01 - Initial project setup with objectives and planning.                                                 
+2025-09-05 - Created sitemap and wireframes for homepage, menu, and checkout.                                    
+2025-09-10 - Finalized color palette and typography for brand identity.                                          
+2025-09-12 - Designed high-fidelity mockups in Figma; added accessibility elements.                              
+2025-09-14 - Developed homepage and menu pages using HTML/CSS; tested responsiveness.                            
+2025-09-20 - Added forms and interactive UI components for checkout page.                                        
+2025-09-25 - Added footer with contact and social links; improved consistency.                                   
+2025-09-27 - Performed usability testing; fixed minor layout bugs.                                               
+2025-10-01 - Implemented JavaScript interactivity (lightbox, form validation).                                   
+2025-10-05 - Improved SEO tags and metadata for search visibility.                                               
+2025-10-10 - Integrated Google Maps and social media widgets on About & Contact pages.                           
+2025-10-17 - Final optimizations, improved navigation, added structural tags (`<main>`, `<header>`, `<footer>`). 
+Version 2.0 - Full responsive launch with all required functionality and JavaScript features.                     
 
-2025-09-10: Defined the website’s color palette (pink, brown, white) and font pairings for headings and body text. Added justification for these design choices to reflect the bakery’s brand identity.
+Design & User Experience Summary
+Colour Scheme:
+* Primary: Pink (#E21C47)
+* Secondary: White (#FFFFFF)
+* Accent: Gold/Brown (#B3122D)
 
-2025-09-12: Developed high-fidelity mockups in Figma/Adobe XD, incorporating accessibility considerations such as contrast, alt text, and responsive layouts.
+Typography:
+* Headers: Poppins Semi-Bold
+* Body: Open Sans
+* Script Accents: Pacifico / Dancing Script
 
-2025-09-15: Began front-end development, implementing the homepage and menu pages using HTML, CSS, Conducted initial responsive design testing.
-
-2025-09-20: Added the checkout page layout and interactive elements such as buttons and forms. Began user experience testing to ensure intuitive navigation.
-
-
- 2025-09-25: Added the footer with social media links, contact information, and sitemap. Ensured consistency and logical flow across all pages.
-
- 2025-09-27: Performed thorough accessibility and usability testing, making adjustments to contrast, alt text, and responsive layouts. Minor bugs were fixed.
-
-Version 1.0 – 2025-09-29: Final review and optimization completed. The website was launched live, fully functional and ready for submission
-
-Design and User Experience 
-# 1.	Colour scheme for logo: 
-•	Cupcake Red / Pink Icing: #E21C47
-•	Soft Pink Watercolour Background: #FCDDEA
-•	White: #FFFFFF
-•	Dark Red (Text emphasis): #B3122D
-
-2.	Typography
-•	Logo font style: Pair with a clean sans-serif for text.
-•	Font Type for Headers: Poppins Semi-Bold 
-•	Font Type for Body Text: Open Sans 
-•	Font Type for Slogan/Decorative Elements: Pacifico or Dancing Script
-
-# 3.	Layout & Navigation 
-•	Header: 
-Logo 
-Slogan under logo 
-Top-level navigation 
-Cart icon 
-
-•	Footer 
-Quick links 
-Social media icons 
-Contact info
-Newsletter subscription box 
-
-# 4.	Design And User Experience
-•	Typography 
-Headers: Sans Serif, 24px, bold, pastel pink (#FFB6C1)
-Body Text: Serif, 16px, dark grey (#333333)
-Buttons/Links: Rounded edges, 14px, white text on pink background
-
-•	Colour palette
-Primary colour: Red / Pink shades
-Secondary colours: White and Light Pink
-Accent: Golden Brown
-
-•	Ux principles 
-Clear navigation 
-Accessibility 
-Smooth transition and animation 
-
-readme
-https://github.com/T3bogoM/Cake-Rush-Bakery.git
-
-
-
+UX Principles:
+* Clear navigation
+* Accessible design (labels, contrast, alt text)
+* Smooth transitions & hover effects
+* Mobile responsiveness
