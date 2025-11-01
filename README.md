@@ -1,6 +1,6 @@
 1. Cake Rush Bakery Website
-Repository:[Cake-Rush-Bakery](https://github.com/T3bogoM/Cake-Rush-Bakery.git)
 
+Repository:[Cake-Rush-Bakery] (https://github.com/T3bogoM/Cake-Rush-Bakery.git)
 Student Information
 * Student Name: Tebogo Molawa
 * Student Number: ST10470820
