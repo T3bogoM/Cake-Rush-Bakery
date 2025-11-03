@@ -121,6 +121,13 @@ nav a:active {
   background-color: #9c27b0;
 }
 
+/* Keyboard focus visibility */
+nav a:focus, nav a:focus-visible {
+  outline: 3px solid #ff66a3;
+  outline-offset: 2px;
+  border-radius: 6px;
+}
+
 .social-icons img {
   width: 40px;
   margin: 0 10px;
@@ -206,6 +213,37 @@ button[type="submit"]:hover {
 @media (max-width: 640px) {
   form {
     padding: 1rem;
+  }
+}
+
+/* ====== RESPONSIVE NAVIGATION ====== */
+.menu-toggle {
+  display: none;
+  background: #a02161;
+  color: #fff;
+  border: 0;
+  padding: 8px 12px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+@media (max-width: 700px) {
+  .menu-toggle {
+    display: inline-block;
+  }
+  header {
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  nav ul {
+    display: none;           /* hide by default on small screens */
+    flex-direction: column;  /* vertical menu */
+    gap: 10px;
+    width: 100%;
+    margin-top: 8px;
+  }
+  nav.open ul {             /* shown when toggled */
+    display: flex;
   }
 }
 
