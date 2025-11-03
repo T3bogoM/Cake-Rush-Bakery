@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact | Cake Rush Bakery</title>
+  <meta name="description" content="Contact Cake Rush Bakery. Send us a message or find us on the map.">
+  <link rel="canonical" href="/contact.html">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin=""/>
+  <script defer src="script.js"></script>
+  <script defer src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+</head>
+
+<body>
+  <header>
+    <img src="_images/Screenshot 2025-08-26 175106.png" alt="Cake Rush Bakery logo" class="logo">
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="products.html">Products</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+        <li><a href="enquire.html">Enquiry</a></li>
+        <li><a class="active" href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <h1>Contact Us</h1>
+    <p>We would love to hear from you! Please use the form below or find us on the map.</p>
+
+    <form id="contactForm" novalidate>
+      <label for="contactName">Name:</label>
+      <input type="text" id="contactName" name="name" required minlength="2" maxlength="60" placeholder="Your full name">
+
+      <label for="contactEmail">Email:</label>
+      <input type="email" id="contactEmail" name="email" required placeholder="you@example.com">
+
+      <label for="contactType">Message Type:</label>
+      <select id="contactType" name="type" required>
+        <option value="General">General</option>
+        <option value="Order">Order</option>
+        <option value="Feedback">Feedback</option>
+      </select>
+
+      <label for="contactMessage">Message:</label>
+      <textarea id="contactMessage" name="message" required minlength="10" maxlength="1000" placeholder="Type your message..."></textarea>
+
+      <div id="contactErrors" aria-live="polite"></div>
+      <button type="submit">Send Message</button>
+    </form>
+
+    <section class="map-section">
+      <h2>Find Us</h2>
+      <div id="map" style="height: 350px; border-radius: 12px;"></div>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2025 Cake Rush Bakery</p>
+  </footer>
+</body>
+</html>
+
+

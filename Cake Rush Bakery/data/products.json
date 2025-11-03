@@ -1,0 +1,52 @@
+[
+  {
+    "name": "Vanilla Cupcakes",
+    "image": "_images/Vanilla Cupcakes.jpg",
+    "alt": "Tray of vanilla cupcakes with frosting",
+    "price": "R50 per 6-pack",
+    "tags": ["cupcakes", "vanilla", "sweet"],
+    "description": "Soft and moist cupcakes topped with smooth vanilla buttercream."
+  },
+  {
+    "name": "Wedding Cake",
+    "image": "_images/Rustic Winter Wedding Cake Inspiration.jpeg",
+    "alt": "Three-tier rustic wedding cake",
+    "price": "From R800",
+    "tags": ["wedding", "cake", "custom"],
+    "description": "Beautifully designed multi-layer cakes tailored for your big day."
+  },
+  {
+    "name": "Chocolate Éclair",
+    "image": "_images/The BEST classic chocolate eclair recipe that will take you through how to make classic French eclairs at home step by step_.jpeg",
+    "alt": "Chocolate eclair pastry",
+    "price": "R25 each",
+    "tags": ["pastry", "chocolate", "eclair"],
+    "description": "Light pastry filled with rich custard and topped with chocolate glaze."
+  },
+  {
+    "name": "Classic Cheesecake",
+    "image": "_images/Classic New York-Style Cheesecake Recipe.jpg",
+    "alt": "Classic cheesecake on biscuit base",
+    "price": "R300 per cake",
+    "tags": ["cheesecake", "classic", "cake"],
+    "description": "Creamy and smooth cheesecake on a buttery biscuit crust."
+  },
+  {
+    "name": "Red Velvet Cake",
+    "image": "_images/Red Velvet Dream Cake.jpg",
+    "alt": "Red velvet cake with cream cheese frosting",
+    "price": "R450 per cake",
+    "tags": ["red velvet", "cake"],
+    "description": "Rich red velvet layers with classic cream cheese frosting."
+  },
+  {
+    "name": "Assorted Cookies",
+    "image": "_images/download (1).jpeg",
+    "alt": "Assorted cookies on a plate",
+    "price": "R80 per dozen",
+    "tags": ["cookies", "assorted", "baked"],
+    "description": "Freshly baked daily: chocolate chip, oatmeal raisin, sugar cookies."
+  }
+]
+
+

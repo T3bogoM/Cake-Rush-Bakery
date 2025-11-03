@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Products | Cake Rush Bakery</title>
+  <meta name="description" content="Browse cakes, cupcakes, pastries and custom orders at Cake Rush Bakery.">
+  <link rel="canonical" href="/products.html">
+  <link rel="stylesheet" href="style.css">
+  <script defer src="script.js"></script>
+</head>
+
+<body>
+  <header>
+    <img src="_images/Screenshot 2025-08-26 175106.png" alt="Cake Rush Bakery logo" class="logo">
+    <button id="menuToggle" class="menu-toggle" aria-label="Toggle navigation" aria-expanded="false">Menu</button>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a class="active" href="products.html">Products</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+        <li><a href="enquire.html">Enquiry</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="intro fade-in">
+      <h1>Our Delicious Creations</h1>
+      <p>Every treat is baked with love and the finest ingredients. Use the search below to find your favourite.</p>
+    </section>
+
+    <section class="product-search">
+      <input type="text" id="searchBar" placeholder="Search for a product...">
+    </section>
+
+    <section id="productList" class="product-list">
+      <!-- Dynamically populated from data/products.json -->
+    </section>
+
+    <section class="order-info fade-in">
+      <h2>How to Order</h2>
+      <p>Order via our <a href="enquire.html">Enquiry Page</a> or contact us directly. Custom designs available on request.</p>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2025 Cake Rush Bakery | Creating sweet memories, one cake at a time.</p>
+  </footer>
+</body>
+</html>

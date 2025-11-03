@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Enquiry | Cake Rush Bakery</title>
+  <meta name="description" content="Enquire about products, volunteering or sponsorship at Cake Rush Bakery.">
+  <link rel="canonical" href="/enquire.html">
+  <link rel="stylesheet" href="style.css">
+  <script defer src="script.js"></script>
+  </head>
+
+<body>
+  <header>
+    <img src="_images/Screenshot 2025-08-26 175106.png" alt="Cake Rush Bakery logo" class="logo">
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="products.html">Products</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+        <li><a class="active" href="enquire.html">Enquiry</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <h1>Send an Enquiry</h1>
+    <form id="enquiryForm" novalidate>
+      <fieldset>
+        <legend>Your Details</legend>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required minlength="2" maxlength="60" placeholder="Your full name">
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required placeholder="you@example.com">
+
+        <label for="phone">Phone (optional):</label>
+        <input type="text" id="phone" name="phone" pattern="^\+?[0-9\s-]{7,15}$" placeholder="e.g. +27 71 234 5678">
+      </fieldset>
+
+      <fieldset>
+        <legend>Enquiry Details</legend>
+        <label for="enquiryType">I am interested in:</label>
+        <select id="enquiryType" name="enquiryType" required>
+          <option value="Product">Products</option>
+          <option value="Volunteer">Volunteering</option>
+          <option value="Sponsor">Sponsorship</option>
+        </select>
+
+        <label for="product">Product (if applicable):</label>
+        <select id="product" name="product">
+          <option value="">Select a product</option>
+          <option value="Cupcakes">Cupcakes</option>
+          <option value="Wedding Cake">Wedding Cake</option>
+          <option value="Pastries">Pastries</option>
+        </select>
+
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" required minlength="10" maxlength="1000" placeholder="Tell us what you need..."></textarea>
+      </fieldset>
+
+      <div id="enquiryErrors" aria-live="polite"></div>
+      <button type="submit">Submit Enquiry</button>
+    </form>
+  </main>
+
+  <footer>
+    <p>© 2025 Cake Rush Bakery</p>
+  </footer>
+</body>
+</html>
