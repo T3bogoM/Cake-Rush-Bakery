@@ -130,6 +130,20 @@ UX Principles:
 * Smooth transitions & hover effects
 * Mobile responsiveness
 
+ Security Measures
+- Security Meta Tags: Added to all HTML pages:
+  - `X-Content-Type-Options: nosniff` - Prevents MIME type sniffing
+  - `Referrer-Policy: strict-origin-when-cross-origin` - Controls referrer information
+  - `Permissions-Policy` - Restricts access to sensitive browser features (geolocation, microphone, camera)
+- Input Sanitization: Implemented `sanitizeInput()` function in `script.js` to prevent XSS attacks by escaping HTML entities in user input before display or submission
+- Server-Level Security (`.htaccess`): Apache configuration includes:
+  - X-XSS-Protection header
+  - X-Frame-Options to prevent clickjacking
+  - Content Security Policy (CSP) to restrict resource loading
+  - Compression and caching for performance
+- Form Validation: Client-side validation with pattern matching for email, phone numbers, and input length limits
+
+
 Reference list: 
 1. Adobe Color. (2024) Color Wheel and Palette Generator. Available at:https://color.adobe.com (Accessed: 10 October 2025).
 2. Canva. (2024) How to Choose the Perfect Color Palette for Your Brand. Available at: https://www.canva.com/colors/(Accessed: 10 October 2025).

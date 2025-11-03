@@ -1,3 +1,10 @@
+// Security: Input sanitization function to prevent XSS
+function sanitizeInput(str) {
+  const div = document.createElement('div');
+  div.textContent = str;
+  return div.innerHTML;
+}
+
 // Lightbox for gallery
 document.addEventListener('DOMContentLoaded', () => {
   // Mobile nav toggle
@@ -98,16 +105,19 @@ document.addEventListener('DOMContentLoaded', () => {
   if (contactForm) {
     contactForm.addEventListener('submit', async (e) => {
       e.preventDefault();
-      const name = document.getElementById('contactName').value.trim();
-      const email = document.getElementById('contactEmail').value.trim();
-      const type = document.getElementById('contactType').value;
-      const message = document.getElementById('contactMessage').value.trim();
+      let name = document.getElementById('contactName').value.trim();
+      let email = document.getElementById('contactEmail').value.trim();
+      let type = document.getElementById('contactType').value;
+      let message = document.getElementById('contactMessage').value.trim();
       const errors = [];
       if (name.length < 2) errors.push('Name must be at least 2 characters.');
       if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)) errors.push('Please enter a valid email address.');
       if (message.length < 10) errors.push('Message must be at least 10 characters.');
       const out = document.getElementById('contactErrors');
-      if (out) out.innerHTML = errors.map((x) => `<p style="color:#b00020;">${x}</p>`).join('');
+      if (out) out.innerHTML = errors.map((x) => `<p style="color:#b00020;">${sanitizeInput(x)}</p>`).join('');
+      // Sanitize inputs before sending
+      name = sanitizeInput(name);
+      message = sanitizeInput(message);
       if (errors.length === 0) {
         try {
           const res = await fetch('https://httpbin.org/post', {
@@ -138,19 +148,22 @@ document.addEventListener('DOMContentLoaded', () => {
   if (enquiryForm) {
     enquiryForm.addEventListener('submit', async (e) => {
       e.preventDefault();
-      const name = document.getElementById('name').value.trim();
+      let name = document.getElementById('name').value.trim();
       const email = document.getElementById('email').value.trim();
-      const phone = document.getElementById('phone').value.trim();
+      let phone = document.getElementById('phone').value.trim();
       const enquiryType = document.getElementById('enquiryType').value;
       const product = document.getElementById('product').value;
-      const message = document.getElementById('message').value.trim();
+      let message = document.getElementById('message').value.trim();
       const errors = [];
       if (name.length < 2) errors.push('Name must be at least 2 characters.');
       if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)) errors.push('Please enter a valid email address.');
       if (message.length < 10) errors.push('Message must be at least 10 characters.');
       if (phone && !/^\+?[0-9\s-]{7,15}$/.test(phone)) errors.push('Phone number format is invalid.');
       const out = document.getElementById('enquiryErrors');
-      if (out) out.innerHTML = errors.map((x) => `<p style="color:#b00020;">${x}</p>`).join('');
+      if (out) out.innerHTML = errors.map((x) => `<p style="color:#b00020;">${sanitizeInput(x)}</p>`).join('');
+      // Sanitize inputs before sending
+      name = sanitizeInput(name);
+      message = sanitizeInput(message);
       if (errors.length === 0) {
         try {
           const res = await fetch('https://httpbin.org/post', {
